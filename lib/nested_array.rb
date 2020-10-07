@@ -36,11 +36,8 @@ def sorted_matrix
 ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
  ]
  
-joined_produce.sort!
-
-new_produce = joined_produce[0].sort 
-new_produce = new_produce.to_a + joined_produce[1].sort
- #new_produce
+CONVENTIONAL_PRODUCE.sort 
+ORGANIC_PRODUCE.sort
 
 end
 
