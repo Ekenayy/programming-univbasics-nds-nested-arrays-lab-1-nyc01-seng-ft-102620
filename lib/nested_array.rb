@@ -36,7 +36,7 @@ def sorted_matrix
 ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
  ]
  
-joined_produce.flatten
+joined_produce.sort!
 
 #new_produce = joined_produce[0].sort 
 #new_produce = new_produce + joined_produce[1].sort
