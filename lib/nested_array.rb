@@ -38,8 +38,8 @@ def sorted_matrix
  
 joined_produce.sort!
 
-#new_produce = joined_produce[0].sort 
-#new_produce = new_produce.to_a + joined_produce[1].sort
+new_produce = joined_produce[0].sort 
+new_produce = new_produce.to_a + joined_produce[1].sort
  #new_produce
 
 end
