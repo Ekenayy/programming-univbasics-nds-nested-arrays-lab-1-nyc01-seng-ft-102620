@@ -36,8 +36,8 @@ def sorted_matrix
 ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
  ]
  
- sorted_matrix.sort!
- 
+joined_produce.sort
+
 #new_produce = joined_produce[0].sort 
 #new_produce = new_produce + joined_produce[1].sort
  #new_produce
